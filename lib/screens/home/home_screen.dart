@@ -26,7 +26,7 @@ int _currentIndex =0 ;
 List _pages = [
   Beranda(),
   Produk(),
-  Akun(),
+  ProfilePage(),
 ];
 
   //fungtion

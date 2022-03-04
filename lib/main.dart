@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:stylish/constants.dart';
 import 'package:stylish/screens/home/home_screen.dart';
+import 'package:stylish/screens/home/login_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -45,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     Timer(Duration(seconds: 3), () {
       Navigator.of(context)
-          .pushReplacement(MaterialPageRoute(builder: (_) => HomeScreen()));
+          .pushReplacement(MaterialPageRoute(builder: (_) => LoginPage()));
     });
   }
 
